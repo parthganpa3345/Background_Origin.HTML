@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x {
+            border: 10px solid rgba(59, 219, 10, 0.35);
+            padding: 30px;
+            background: url(https://augustav.com/images/bottom1.jpg);
+            /* background-clip: border-box; */
+            background-origin: border-box;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        
+        .y {
+            border: 10px solid rgba(59, 219, 10, 0.35);
+            padding: 30px;
+            background: url(https://augustav.com/images/bottom1.jpg);
+            /* background-clip: padding-box; */
+            background-origin: padding-box;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        
+        .z {
+            border: 10px solid rgba(59, 219, 10, 0.35);
+            padding: 30px;
+            background: url(https://augustav.com/images/bottom1.jpg);
+            /* background-clip: content-box; */
+            background-origin: content-box;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>background-clip:border-box;</h2>
+
+    <div class="x">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perspiciatis nisi provident ipsum asperiores quod quam, quos accusantium quis officia ducimus illum iure quaerat dolore laborum repudiandae magni sapiente libero!
+    </div>
+
+    <h2>background-clip:padding-box;</h2>
+
+    <div class="y">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perspiciatis nisi provident ipsum asperiores quod quam, quos accusantium quis officia ducimus illum iure quaerat dolore laborum repudiandae magni sapiente libero!
+    </div>
+
+    <h2>background-clip:content-box;</h2>
+
+    <div class="z">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perspiciatis nisi provident ipsum asperiores quod quam, quos accusantium quis officia ducimus illum iure quaerat dolore laborum repudiandae magni sapiente libero!
+    </div>
+
+</body>
+
+</html>
